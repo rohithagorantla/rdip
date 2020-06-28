@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<style>
+p2 {
+float : right;
+}
+body {
+margin : 50px 50px 50px 50px;
+}
+#nav {
+background-color : black;
+margin : 50px 0 50px 0;
+padding : 5px 5px 5px 5px;
+}
+#nav a {
+list-style-type : none;
+text-decoration : none;
+color : white;
+}
+
+</style>
+<center><h1>REGISTRATION PAGE:<h1></center>
+
+<a href="https://www.iiit.ac.in/"><img src="https://www.iiit.ac.in/img/iiit-new.png" width="100" height="50" align="left"></a><br>
+<a href="https://serc.iiit.ac.in/rdip"><p2><u>RDIP</u></p2></a>
+<div id="nav">
+<a href="homepage.html">Home &nbsp;</a>
+<a href="registration.html">Registration Form &nbsp;</a>
+</div>
+<form action="details.html" method="get">
+
+<label for="fname">First name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+<input type="text" id="fname" name="fname" value="" ><br><br>
+
+<label for="email">E-mail:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+<input type="email" id="email" name="email" value=""><br><br>
+
+<label for="phno">Phone number:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+<input type="number" id="phno" name="phno" value="" align="center"><br><br>
+
+<label for="gender">Gender:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+
+<input type="radio" id="Male" name="gender" value="">
+<label for="Male">Male&nbsp;&nbsp;</label>
+
+<input type="radio" id="Female" name="gender" value="">
+<label for="Female">Female&nbsp;&nbsp;</label>
+
+<input type="radio" id="Other" name="gender" value="">
+<label for="Other">Other&nbsp;&nbsp;</label><br><br>
+
+<label for="Reason">Reason for RDIP:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+
+<input type="radio" id="HTML" name="HTML" value="" >
+<label for="HTML">HTML&nbsp;&nbsp;</label>
+
+<input type="radio" id="css" name="css" value="">
+<label for="css">CSS&nbsp;&nbsp;</label>
+
+<input type="radio" id="javascript" name="javascript" value="">
+<label for="javascript">JavaScript&nbsp;&nbsp;</label><br><br>
+
+
+<label for="cname">College:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+<input type="text" id="cname" name="cname" value=""><br><br>
+
+<input type="checkbox" id="declare" name="declare" value="checkbox">
+<label for="declare">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I declare above details given by me are true.</label><br><br><br>
+
+<a href="details.html"><input type="submit" value="Submit"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="registration.html"><button type="button" style="border-radius:5x">Reset</button></a>
+</form>
+
+</html>
