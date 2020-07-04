@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet"  href="Formtask.css" >
+    <script type="text/javascript" src="calculator.js"></script>
+</head>
+<body>
+    <form >
+
+        <h1>Registration Form</h1>
+             Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" id="text1" name="name1"  oninput="validatename()"  /><br /><br />
+            Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" id="text2" name="email1" oninput="validateemail()"  /><br /><br />
+            Number:&nbsp;
+            <input type="text" id="num1" name="number1" maxlength=10 oninput="validatenum()" /><br /><br />
+            <input type="submit" name="submit"id="sub" value="Submit" onclick="validation()" />
+    </form>
+</body>
+</html>

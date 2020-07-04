@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script src="calculator.js" ></script>
+    
+</head>
+<body>
+
+    <div class="calci"  id="calc">
+        <div class="keys">
+            <table id="key" border ="1" cellpadding="15">
+                <tbody>
+                    <tr><th colspan="3"><input type="text" readonly size="18" id="d" /></th></tr>
+                    <tr>
+                        <th><input type="button" value="7" id="num" onclick='dis("7")'></th>
+                        <th><input type="button" value="8" id="num" onclick='dis("8")'></th>
+                        <th><input type="button" value="9" id="num" onclick='dis("9")'></th>
+                        <th><input type="button" value="%" id="num" onclick='dis("%")'></th>
+                        <th><input type="button" value="C" id="refresh" onclick='clr()'></th>
+                    </tr>
+                    <tr>
+                        <th><input type="button" value="4" id="num" onclick='dis("4")'></th>
+                        <th><input type="button" value="5" id="num" onclick='dis("5")'></th>
+                        <th><input type="button" value="6" id="num" onclick='dis("6")'></th>
+                        <th><input type="button" value="*" id="num" onclick='dis("*")'></th>
+                        <th><input type="button" value="/" id="num" onclick='dis("/")'></th>
+                    </tr>
+                    <tr>
+                        <th><input type="button" value="1" id="num" onclick='dis("1")'></th>
+                        <th><input type="button" value="2" id="num" onclick='dis("2")'></th>
+                        <th><input type="button" value="3" id="num" onclick='dis("3")'></th>
+                        <th><input type="button" value="+" id="num" onclick='dis("+")'></th>
+                        <th><input type="button" value="-" id="num" onclick='dis("-")'></th>
+                    </tr>
+                    <tr>
+                        <th><input type="button" value="." id="num" onclick='dis(".")'></th>
+                        <th><input type="button" value="0" id="num" onclick='dis("0")'></th>
+                        <th><input type="button" value="|" id="absolute" onclick='abs()'></th>
+                        <th><input type="button" value="√" id="root" onclick='sqrt()'></th>
+                        <th><input type="button" value="=" id="res" onclick='cal()'></th>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

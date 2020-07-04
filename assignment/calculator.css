@@ -1,0 +1,24 @@
+﻿
+body {
+    background-color:black;
+}
+td, th {
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 16px;
+    border-color:cornsilk;
+    color:white;
+}
+input {
+    background-color: black;
+    border: none;
+    color: wheat;
+    padding: 15px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+   
+
